@@ -1,1 +1,1 @@
-# Querying-Bus-Data-Project
+The following repository contains the main programming file, query_data.py, is a python program that uses SQL querying by importing the module, sqlite3. query_data.py is a module that contains functions to convert the csv file, bus_data.csv, to a database file as well as conduct operations on the created database file such as computing insightful data and updating the database file. Comments and docstrings are included heavily in the file to explain reasoning and purposes behind functions.

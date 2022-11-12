@@ -75,7 +75,7 @@ def route_data(route):
 
     # we need to do some string formatting to 'route' as route is a TEXT datatype in
     # the database and there are routes containing letters with numbers
-    route = '' + str(route) + ''
+    route = "'" + str(route) + "'"
     connection = sql.connect("bus_data.db")
     cursor = connection.cursor()
     # Using 'AVG()' we can take the average rides of the buses with the selected
